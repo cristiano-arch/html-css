@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('Attatchment/pacote-projeto-d010/fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #00754296;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin: 1em;
+}
+
+header {
+    background-image: linear-gradient(180deg, #00754296, #00351d);
+    padding: 8px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: initial;
+    padding: 1em;
+}
+
+header nav a {
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+    padding: 8px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #001f11;
+    background-color: rgba(255, 255, 255, 0.425);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    height: auto;
+    width: auto;
+    margin: 0 10em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    background-color: #00351d;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 1px;
+    margin: 24px 0px 0px 0px;
+    }
+    
+footer > p {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'idroid';
+    color: #00351d;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'idroid';
+    color: #00351d;
+    background-image: linear-gradient(90deg, #00754246, transparent);
+}
+
+.container strong {
+    color: #005831;
+}
+
+img, iframe {
+    display: block;
+    margin: auto;
+}
+
+.separate {
+    color: #005831;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #00754246, transparent);
+    position: relative;
+}
+
+p {
+    text-indent: 40px;
+}
+
+.video-background {
+    background-color: #005831;
+    padding: 2em;
+}
+
+@media only screen and (max-width: 750px) {
+    .container {
+      width: auto;
+      height: auto;
+      margin: auto;
+    }
+  }
+
+section h3 {
+    background-color: #005831;
+    color: white;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
+}
+
+section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 1em;
+    padding: 8px;
+}
+
+aside ul {
+    list-style: none;
+    margin: 1em;
+}
+
+aside ul li:before {
+    content: '✓ ';
+    display: inline;
+    padding: 0 0 0 1em;
+}
+
+li > a {
+    color: black;
+    display: inline;
+}
+
+.more {
+    background-color: #00754242;
+    border-radius: 10px;
+}
