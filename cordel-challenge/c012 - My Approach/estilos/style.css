@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Passion One';
+    src: url('../fontes/PassionOne-Bold.ttf') format( 'opentype' );
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url('../fontes/Sriracha-Regular.ttf') format( 'opentype' );
+    font-weight: normal;
+}
+
+:root {
+    --fonte-titulo: 'Passion One', cursive;
+    --font-demais: Verdana, Geneva, Tahoma, sans-serif;
+    --font-padrao: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0PX;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-titulo);
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header > p {
+    color: white;
+    font-family: var(--font-demais);
+}
+
+header a {
+    color: white;
+    font-family: var(--font-demais);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: var(--font-padrao);
+    font-size: 3.5vw;
+    line-height: 2em;
+    font-weight: normal;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section > pre {
+    display: inline-block;    
+}
+
+section#bg1 {
+    background-image: url('../imagens/background001.jpg');
+    background-attachment: fixed;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-position: right center;
+}
+
+section#bg2 {
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-position: right center;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    background-color: black;
+    padding: 8px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-family: var(--font-demais);
+}
+
+footer a {
+    font-family: var(--font-demais);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
