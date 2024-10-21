@@ -8,11 +8,11 @@ M01 - [Primeiros passos HTML+CSS](https://www.youtube.com/playlist?list=PLHz_Are
 
 M02 - [Deixando as coisas mais bonitas](https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s) :heavy_check_mark:
 
-M03 - [Colocando um protótipo no ar](https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ)
+M03 - [Colocando um protótipo no ar](https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ) :heavy_check_mark:
 
 M04 - [Aprofundando os conhecimentos](https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT)
 
-M05 - [Novas tecnologias](#)
+M05 - [Novas tecnologias](https://www.youtube.com/playlist?list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d)
 
 ---
 
